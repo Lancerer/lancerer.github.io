@@ -7,9 +7,9 @@
 
 # Site settings
 title: Lancer的专栏
-brief-intro: Android and Python Coder
+brief-intro: Android  Coder
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://643435675.github.io" # the base hostname & protocol for your site
+url: "https://lancerer.github.io/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
@@ -18,9 +18,9 @@ twitter_username: #gaohaoyang126
 facebook_username: #gaohaoyang.water
 github_username:  Lancerer
 email: tyk790406977@126.com
-weibo_username: 3115521wh
-zhihu_username: hll643435675
-linkedIn_username: gaohaoyang
+weibo_username: Mr.迪卢木多
+zhihu_username: xxx
+linkedIn_username: xxx
 dribbble_username:
 
 description_footer: 来自Lancer的个人专栏！
