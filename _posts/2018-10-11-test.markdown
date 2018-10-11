@@ -18,7 +18,8 @@ SSR节点可以向我索取
 QQ:790406977
 
 ## SSR客户端的下载(暂时只有win，穷人用不起mac)
-pc端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip][pc-ssr] android端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip][android-ssr]
+pc端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip][pc-ssr] 
+android端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip][android-ssr]
 
 
 [pc-ssr]:  https://www.i5seo.com/1/SSR_for_win.zip
