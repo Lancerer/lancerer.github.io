@@ -1,38 +1,27 @@
 ---
 layout: post
-title:  "hello Lancer!"
+title:  "关于使用SSR来进行科学上网(嘻嘻)"
 date:   2018-10-11 15:14:54
-categories: jekyll
-tags: Lancer
-excerpt: 当年创建 Lancer 时默认的一篇文章，没什么意义，我也一直没删除，留个纪念吧。
+categories: vpn
+tags: vpn
+excerpt: ssr下载节点提供
 mathjax: true
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+##什么是SSR
+SS/SSR是目前流行的科学访问方式，使用多种加密方式进行端到端加密，来加密数据传输的一种工具，网速更快、更省电，无需始终保持连接，拥有更好使用稳定性。无论是观看油管、玩外服游戏、邮件收发还是外贸需求、网络访问需求，都能够很好的满足。SS/SSR是基于多种语言开发的跨平台软件，源代码寄托于github，有兴趣的朋友可以访问github了解详情。
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+SSR属于SS的分支，SSR相较于SS，提供了加密数据混淆，相对来说能够更好的保证数据传输安全性。通常情况下，建议使用SSR客户端。
 
-Jekyll also offers powerful support for code snippets:
+##SSR节点，和SSR账户密码
+SSR节点可以向我索取
+QQ:790406977
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+##SSR客户端的下载(暂时只有win，穷人用不起mac)
+pc端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip]
+(https://www.i5seo.com/1/SSR_for_win.zip)
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+android端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip]
+(https://www.i5seo.com/1/SSR_for_win.zip)
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
-
-Block Mathjax 
-
-$$
-f(x) = ax + b
-$$
-
-Inline Mathjax $a \neq b$
 
