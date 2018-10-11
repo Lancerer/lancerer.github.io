@@ -21,6 +21,13 @@ QQ:790406977
 pc端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip][pc-ssr] 
 android端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip][android-ssr]
 
+## 其他
+学英语是最烦的，哎！这里推荐两篇非常详细的关于ssr的使用，以及自己租借服务器搭建v_p_n
+[使用vultr搭建自己的服务器][self]
+[SSR的使用][ssr-use]
 
 [pc-ssr]:  https://www.i5seo.com/1/SSR_for_win.zip
 [android-ssr]:   https://www.i5seo.com/1/SSR_for_win.zip
+[self]:https://blog.csdn.net/hombo125/article/details/81811580
+[ssr-use]:https://www.i5seo.com/windows-mac-ios-android-settings-using-the-ss-ssr-tutorial-client-download.html
+
