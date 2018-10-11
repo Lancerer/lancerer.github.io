@@ -8,20 +8,18 @@ excerpt: ssr下载节点提供
 mathjax: true
 ---
 
-##什么是SSR
+## 什么是SSR
 SS/SSR是目前流行的科学访问方式，使用多种加密方式进行端到端加密，来加密数据传输的一种工具，网速更快、更省电，无需始终保持连接，拥有更好使用稳定性。无论是观看油管、玩外服游戏、邮件收发还是外贸需求、网络访问需求，都能够很好的满足。SS/SSR是基于多种语言开发的跨平台软件，源代码寄托于github，有兴趣的朋友可以访问github了解详情。
 
 SSR属于SS的分支，SSR相较于SS，提供了加密数据混淆，相对来说能够更好的保证数据传输安全性。通常情况下，建议使用SSR客户端。
 
-##SSR节点，和SSR账户密码
+## SSR节点，和SSR账户密码
 SSR节点可以向我索取
 QQ:790406977
 
-##SSR客户端的下载(暂时只有win，穷人用不起mac)
-pc端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip]
-(https://www.i5seo.com/1/SSR_for_win.zip)
-
-android端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip]
-(https://www.i5seo.com/1/SSR_for_win.zip)
+## SSR客户端的下载(暂时只有win，穷人用不起mac)
+pc端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip][pc-ssr] android端下载地址：[https://www.i5seo.com/1/SSR_for_win.zip][android-ssr]
 
 
+[pc-ssr]:  https://www.i5seo.com/1/SSR_for_win.zip
+[android-ssr]:   https://www.i5seo.com/1/SSR_for_win.zip
