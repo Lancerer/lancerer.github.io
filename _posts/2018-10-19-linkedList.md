@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "链表的各个方法的实现（C语言）"
-date:   2018-10--18
-categories: 数据结构
-tags: 数据结构 链表 算法 
+title:  "数据结构之链表"
+date:   2018-10-19 15:14:54
+categories: linkedlist
+tags: linkedlist
+excerpt: 数据结构
+mathjax: true
 ---
-
 
 * content
 {:toc}
@@ -57,6 +58,7 @@ PNODE create_list()
 }
 
 ```
+![image](https://github.com/Lancerer/lancerer.github.io/blob/master/img/create_list.png)
 
 ### 链表的遍历
 ``` c
@@ -150,10 +152,8 @@ bool insert_list(PNODE pHead,int pos,int val)
     return true;
 
 }
-
-
-
 ```
+![image](https://github.com/Lancerer/lancerer.github.io/blob/master/img/insert_list.png)
 
 
 ### 删除第pos个节点（和插入有点类似）
@@ -178,3 +178,4 @@ int delete_list(PNODE pHead,int pos,int val)
 }
 
 ```
+![image](https://github.com/Lancerer/lancerer.github.io/blob/master/img/delete_list.png)
