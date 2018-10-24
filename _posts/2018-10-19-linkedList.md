@@ -3,13 +3,38 @@ layout: post
 title:  "数据结构之链表"
 date:   2018-10-19 15:14:54
 categories: linkedlist
-tags: linkedlist
+tags: linkedlist 算法
 excerpt: 数据结构
 mathjax: true
 ---
 
 * content
 {:toc}
+
+### 介绍链表这个数据结构(离散存储)
+```c
+     定义：
+        n个节点离散分配，彼此使用指针相连，每个节点只有一个前驱节点和一个后续节点，首节点没有前驱节点尾节点没有后续节点
+        
+专业术语：
+            首节点：第一个有效节点
+            尾节点：最后一个有效节点
+            头结点：第一个有效节点之前的节点，头结点不存放有效数据，加头结点是为了方便操作链表
+            头指针：指向头结点的指针变量
+            尾指针：指向尾节点的指针变量
+
+ 分类：
+        单链表：
+        双链表：每一个节点都有两个指针域
+        循环链表：能通过任何一个节点找到其他所有的节点
+        非循环链表：
+        
+优缺点：
+        优点：没有空间限制，插入删除元素很快
+        缺点：存储速度很慢
+
+如果希望通过一个函数对链表进行处理，我们只需要知道一个头指针就行，头指针中包含下一个节点的地址，然后链表又是连续的我们就可以相继的推算出所有链表的参数
+```
 
 ### 链表的创建
 ``` c
@@ -179,3 +204,51 @@ int delete_list(PNODE pHead,int pos,int val)
 
 ```
 ![image](https://github.com/Lancerer/lancerer.github.io/blob/master/img/delete_list.png)
+
+### 测试代码
+```c
+int main()
+{
+    PNODE pHead=NULL;
+
+    pHead=create_list();
+
+    show_list(pHead);
+
+    int len=length_list(pHead);
+
+    if(isEmpty_list(pHead))
+    {
+        printf("链表内容为空\n");
+    }
+
+    printf("链表的长度为：%d\n",len);
+
+    sort_list(pHead);
+    printf("排序后的链表内容：");
+    show_list(pHead);
+
+//   if(insert_list(pHead,3,555))
+//    show_list(pHead);
+
+    delete_list(pHead,2,99);
+    show_list(pHead);
+
+
+    return 0;
+}
+
+控制台输出：
+
+请输入要创建几个节点的链表len=6
+请输入第1个节点的值:    1
+请输入第2个节点的值:    2
+请输入第3个节点的值:    3
+请输入第4个节点的值:    2
+请输入第5个节点的值:    5
+请输入第6个节点的值:    9
+1  2  3  2  5  9
+链表的长度为：6
+排序后的链表内容：1  2  2  3  5  9
+1  2  3  5  9
+```
