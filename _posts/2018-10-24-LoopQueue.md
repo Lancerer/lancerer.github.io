@@ -67,6 +67,7 @@ void init_queue(QUEUE * pq)
 }
 
 ```
+![image](http://phcabd9ew.bkt.clouddn.com/staticQueue_loopQueue.png)
 
 ### 循环队列是否为空
 ```c

@@ -83,7 +83,7 @@ PNODE create_list()
 }
 
 ```
-![image](https://github.com/Lancerer/lancerer.github.io/blob/master/img/create_list.png)
+![image](http://phcabd9ew.bkt.clouddn.com/create_list.png)
 
 ### 链表的遍历
 ``` c
@@ -178,7 +178,7 @@ bool insert_list(PNODE pHead,int pos,int val)
 
 }
 ```
-![image](https://github.com/Lancerer/lancerer.github.io/blob/master/img/insert_list.png)
+![image](http://phcabd9ew.bkt.clouddn.com/insert_list.png)
 
 
 ### 删除第pos个节点（和插入有点类似）
@@ -203,7 +203,7 @@ int delete_list(PNODE pHead,int pos,int val)
 }
 
 ```
-![image](https://github.com/Lancerer/lancerer.github.io/blob/master/img/delete_list.png)
+![image](http://phcabd9ew.bkt.clouddn.com/delete_list.png)
 
 ### 测试代码
 ```c
