@@ -267,4 +267,25 @@ rearA->next=rearB->next->next;//将本是指向b表的第一个节点(不是head
 rearB->next=p//将原A表的头结点赋值给rearB->next
 free(p);//释放p
 ```
-![iamge](http://phcabd9ew.bkt.clouddn.com/%E5%8D%95%E9%93%BE%E8%A1%A8%E7%9A%84%E5%90%88%E5%B9%B6.png)
+![image](http://phcabd9ew.bkt.clouddn.com/%E5%8D%95%E9%93%BE%E8%A1%A8%E7%9A%84%E5%90%88%E5%B9%B6.png)
+
+### 双链表
+```c
+双链表和单链表类似，只是在插入和删除操作中有一点不同，因为他多了一个指向前驱的指针
+
+插入操作
+s->prior=p;//把p赋值给s的前驱,s的前驱就连接上了前一个节点了
+s->next=p->next;//将p->next赋值给s的后继，就是将s的后继和后一个节点连接上了
+p->next->prior=s;//就是将后一个节点的前驱指针指向了s
+p->next=s;//将p的后继指向了s
+
+
+删除操作(要删除的是p节点)
+p->prior->next=p->next;//就是将p的前一个节点的后继指针指向p的后一个节点；
+p->next->prior=p->prior;//将p的后面一个节点的前即指针指向p的前一个节点的后即指针
+
+
+```
+
+![image](http://phcabd9ew.bkt.clouddn.com/%E5%8F%8C%E9%93%BE%E8%A1%A8%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C.png)
+![image](http://phcabd9ew.bkt.clouddn.com/%E5%8F%8C%E9%93%BE%E8%A1%A8%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C.png)
