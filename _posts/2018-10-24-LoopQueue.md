@@ -188,3 +188,12 @@ int main()
 1  2  3  4  5  出队成功出队元素是1
 2  3  4  5
 ```
+### 顺序队列的定义
+```c
+typedef struct
+{
+    int data[MAXSIZE];
+    int front;//对首指针
+    int rear;//队尾指针
+}SqQueue;
+```
